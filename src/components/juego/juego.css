@@ -1,0 +1,101 @@
+.contenedorBingo.activo{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedorBingo{
+    display: none;
+}
+.contenedorResultado{
+    display: none;
+}
+.contenedorResultado.activo{
+    display: block;
+}
+.contenedorResultado h2{
+    color: var(--text);
+    font-size: 70px;
+    text-align: center;
+}
+
+.contenedorNumero{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 50px;
+    user-select: none;
+    height: fit-content;
+}
+.numeroSorteado{
+    padding: 30px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 5px solid var(--text);
+    margin-right: 50px;
+    color: var(--text);
+}
+.contenedorSorteados{
+    width: 90%;
+    margin-top: 5%;
+}
+.contenedorSorteados li{
+    list-style: none;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.contenedorSorteados ul{
+    border: 2px solid var(--text);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.contenedorCarton{
+    width: 70%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.cartonUl{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cartonLi{
+    width: 24%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid var(--text);
+    margin: 1px;
+    border-radius: 7px;
+    user-select: none;
+}
+
+.cartonLi:hover{
+    border: 4px solid var(--text);
+}
+
+.cartonActivo{
+    background-color: var(--text);
+    color: var(--bg);
+}
+.cartonBingo{
+    border: 2px solid rgb(30, 255, 0);
+    color:rgb(30, 255, 0) ;
+}
+.cartonBingo:hover{
+    border: 6px solid rgb(30, 255, 0);
+    color:rgb(30, 255, 0) ;
+}

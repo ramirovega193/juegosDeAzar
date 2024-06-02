@@ -1,0 +1,18 @@
+.contenedor h1{
+    font-size: 72px;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    padding: 200px;
+}
+.contenedorJuego{
+    display: none;
+}
+.contenedorJuego.activo{
+    display: block;
+}

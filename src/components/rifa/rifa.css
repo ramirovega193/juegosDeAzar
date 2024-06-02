@@ -1,0 +1,54 @@
+.tituloSorteo{
+    text-align: center;
+    font-size: 50px;
+}
+
+.inputNumber{
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid var(--text);
+    outline: none;
+    background-color: transparent;
+    color: var(--text);
+    padding: 15px;
+}
+.contenedorInput label{
+    font-size: 25px;
+
+}
+.contenedorInput{
+    
+    margin: 20px;
+
+}
+.contenedorInputs{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.contenedorBoton{
+    text-align: center;
+    margin-top: 50px;
+}
+.contenedorGanadores h2{
+    text-align: center;
+}
+
+.contenedorGanadores{
+
+    margin-top: 100px;
+
+}
+.contenedorGanadores ul{
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid var(--text);
+    flex-wrap: wrap;
+}
+
+.contenedorGanadores li {
+    list-style: none;
+    padding: 10px;
+    margin-left: 5px;
+}
